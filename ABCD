@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP LOGIN</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link
+href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poetsen+One&display=swap" rel="stylesheet">
+
+<link  rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="wplogo"></div>
+    <div class="mainbox" >
+        <form>
+        <label class="name" >Username or  Email address</label>
+        <input type="text" class="mytext" placeholder="input your name or email" required />
+         <label class="password" >Password</label>
+        <input type="password" class="mypassword" placeholder="input the strong password" required/><i onclick="hidePassword()" class="ri-eye-fill"></i><i onclick="showPassword()" class="ri-eye-close-line"></i>
+        <label class="checkbox"><input type="checkbox" /> Remember Me</label>
+        <input type="submit" value="Log in">
+        </form>
+    </div>
+
+
+ <script  src="script.js"></script>   
+</body>
+</html>
